@@ -1,0 +1,33 @@
+.top-items{
+    
+    display:flex;
+    flex-wrap: wrap;
+    gap:50px;
+    justify-content: center;
+    margin-top:50px;
+}
+.card {
+    width:230px;
+    border:1px solid black;
+    height:auto;
+    line-height:23px;
+    background-color:rgb(235, 222, 222);
+    padding:5px;
+}
+.card img{
+    width:100%;
+    height:200px;
+}
+.card .price{
+    color:green;
+    font-weight: bold;
+}
+.card button{
+    margin:10px;
+    background-color: black;
+    border:1px solid white;
+    color:white;
+    padding:10px;
+    border-radius:15px;
+    cursor: pointer;
+}
